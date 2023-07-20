@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class TemplateTransformedMapCC1 {
     public static void main(String[] args) throws Exception{
-        byte[][] bytes = Util.getExpClassFileBytes("EvilClass");
+        byte[] bytes = Util.getExpClassFileBytes("EvilClass");
 
         TemplatesImpl templates = new TemplatesImpl();
         Util.setValue(templates, "_name", "v");

