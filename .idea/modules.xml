@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/commons-collections/commons-collections.iml" filepath="$PROJECT_DIR$/commons-collections/commons-collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdk7u21/jdk7u21.iml" filepath="$PROJECT_DIR$/jdk7u21/jdk7u21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/memory-shell/memory-shell.iml" filepath="$PROJECT_DIR$/memory-shell/memory-shell.iml" />
+    </modules>
+  </component>
+</project>
