@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="myserial" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="commons-collections" target="8" />
       <module name="jdk7u21" target="7" />
-      <module name="myserial" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>

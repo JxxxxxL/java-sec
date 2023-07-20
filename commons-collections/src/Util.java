@@ -74,7 +74,7 @@ public class Util {
         获取恶意字节码，将其bytes传递给TemplatesImpl的_bytecodes属性。
     */
     static public byte[][] getExpClassFileBytes(String EvilClassFileName) throws Exception{
-        File file = new File("C:\\Users\\Administrator\\Desktop\\Code\\java sec\\myserial\\out\\production\\commons-collections\\"+EvilClassFileName+".class");
+        File file = new File("C:\\Users\\Administrator\\Desktop\\Code\\java sec\\java-sec\\out\\production\\commons-collections\\"+EvilClassFileName+".class");
         byte[] bytes = new byte[(int) file.length()];
         FileInputStream fileInputStream = new FileInputStream(file);
         fileInputStream.read(bytes);
